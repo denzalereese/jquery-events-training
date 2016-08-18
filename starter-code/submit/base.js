@@ -8,6 +8,6 @@ $(document).ready(function(){
   $("form").submit(function(event) {
     /* Act on the event */
     event.preventDefault();
-  });
+  }).removeAttr("method");
 
 })
